@@ -72,6 +72,8 @@ select {
 body {
   display: flex;
   background-color: #000;
+  min-width: 1300px;
+  margin: auto;
 }
 
 main {
