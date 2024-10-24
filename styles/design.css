@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+main {
+  width: 1280px;
+  height: 1024px;
+  padding: 129px 52px 64px 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  background-image: url(../images/image-hero-travel.pn);
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.top-section {
+  display: flex;
+  gap: 49px;
+  /* flex-wrap: wrap; */
+}
+
+.topics-section {
+  width: 676px;
+  height: 384px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 78px;
+  column-gap: 40px;
+}
+
+.topic {
+  display: flex;
+  align-items: center;
+}
+
+.figure {
+  width: 76px;
+  height: 76px;
+  border-radius: 16px;
+  background-color: #3088ff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topics-section > .topic:nth-child(2) > .figure {
+  background-color: #f2c94c;
+}
+
+.topics-section > .topic:nth-child(3) > .figure {
+  background-color: #9b51e0;
+}
+
+.topics-section > .topic:nth-child(4) > .figure {
+  background-color: #f8b3b8;
+}
+
+.topics-section > .topic:nth-child(5) > .figure {
+  background-color: #6fcf97;
+}
+
+.topics-section > .topic:last-child > .figure {
+  background-color: #62dbe2;
+}
+
+.figure-textes {
+  width: 210px;
+  height: 76px;
+  margin-left: 32px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 4px;
+}
+
+.figure-textes h3 {
+  height: 34px;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 34px;
+  letter-spacing: 0;
+}
+
+.figure-textes p {
+  height: 38px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0;
+}
+
+.main-text-box {
+  width: 439px;
+  height: 322px;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text-box h1 {
+  height: 128px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 1%;
+}
+
+.main-text-box p {
+  width: 378px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+button {
+  width: 222px;
+  height: 66px;
+  border-radius: 40px;
+  border: none;
+  padding: 24px 56px;
+  background-color: #333333;
+
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9b51e0;
+  transition: 0.4s ease;
+}
+
+.photos-container {
+  width: 984px;
+  height: 283px;
+  display: flex;
+  margin: 0 auto;
+  /* margin-left: 29px; */
+  position: relative;
+}
+
+.photo-div {
+  position: relative;
+}
+
+.photos-container .photo-div p {
+  width: 223px;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  color: #fff;
+  position: absolute;
+  bottom: 24px;
+  left: 53px;
+}
+
+.photos-container .photo-div:first-child img {
+  border-radius: 20px 0 0 20px;
+}
+
+.photos-container .photo-div:last-child img {
+  border-radius: 0 20px 20px 0;
+}

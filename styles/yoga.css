@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+main {
+  width: 1280px;
+  height: 1024px;
+  padding: 62px 42px 61px 77px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  background-image: url(../images/image-hero-yoga.jpg);
+}
+
+.main-text-box {
+  width: 425px;
+  height: 409px;
+  border-radius: 48px;
+  gap: 1px;
+  padding: 72px 26px 42px 48px;
+  margin: 44px 0;
+
+  display: flex;
+  flex-direction: column;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.2) 63%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  backdrop-filter: blur(16px);
+}
+
+.main-text-box h1 {
+  height: 136px;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 57px;
+  letter-spacing: 0%;
+}
+
+.main-text-box p {
+  width: 330px;
+  height: 91px;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+button {
+  width: 252px;
+  height: 66px;
+  border-radius: 40px;
+  border: none;
+  padding: 24px 40px;
+  background-color: #519bfd;
+
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #006eff;
+  transition: 0.4s ease;
+}
+
+.photos-container {
+  width: 284px;
+  height: 901px;
+}
+
+.photos-container img {
+  width: 100%;
+}
+
+.photos-container img:nth-child(2) {
+  margin: 17px 0;
+}
